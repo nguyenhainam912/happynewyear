@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    overflow: hidden;
+    background-color: rgba(0,0,0,0.1);
+}
+
+.btn {
+    position: fixed;
+    background: linear-gradient(to right, rgba(253, 100, 100, 0.5), rgba(235, 13, 13, 0.5));
+    color: #fff;
+    padding: 14px 24px;
+    border-radius: 20px;
+    border: none;
+    margin: 20% 25%;
+    z-index: 99;
+    
+}
+
+.text {
+    position: fixed;
+    font: 60px cursive;
+    color:rgb(224, 57, 57, 0.5);
+    margin: 15% 30%;
+    display: none;
+    -webkit-touch-callout: none; 
+	-webkit-user-select: none; 
+	-khtml-user-select: none;  
+	-moz-user-select: none; 
+	-ms-user-select: none; 
+	user-select: none;
+
+}
+
+.wish-text {
+    position: fixed;
+    font: 60px cursive;
+    color:rgba(231, 228, 13, 0.5);
+    margin: 25% 20%;
+    display: none;
+    -webkit-touch-callout: none; 
+	-webkit-user-select: none; 
+	-khtml-user-select: none;  
+	-moz-user-select: none; 
+	-ms-user-select: none; 
+	user-select: none;
+
+}
